@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("photos/örgu.jpeg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  justify-content: space-around;
+  background: #212a3e;
+  color: aliceblue;
+  padding: 30px;
+}
+.baslik {
+  font-family: Remachine Script;
+}
+.navlist {
+  display: flex;
+  justify-content: center;
+}
+.nav-element {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding-right: 16px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-Menu {
+  display: flex;
+
+  flex-grow: 0;
+  flex-shrink: 0;
+
+  /*position: absolute;
+  bottom: 30px;
+  left: 670px;*/
+
+  background: #212a3e;
+
+  border-radius: 12px;
+}
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 40%;
+}
+.footer-element {
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-link {
+  text-decoration: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 9px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+}
+.content {
+  flex-grow: 1;
+  color: white;
+  font-size: large;
+  margin: 16px;
+  padding: 1px;
+}
